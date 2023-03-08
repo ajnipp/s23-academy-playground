@@ -11,7 +11,7 @@ import SwiftUI
 struct s23_academy_playgroundApp: App {
     var body: some Scene {
         WindowGroup {
-            ToDoListView()
+            ContentView()
         }
     }
 }

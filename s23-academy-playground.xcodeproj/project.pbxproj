@@ -21,6 +21,8 @@
 		16F4EA0C29AED8A300B62F32 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4EA0B29AED8A300B62F32 /* ToDoView.swift */; };
 		16F4EA0E29AEDBB700B62F32 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4EA0D29AEDBB600B62F32 /* ToDoListView.swift */; };
 		16F4F4952991B50F00E31BC5 /* NestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4F4942991B50F00E31BC5 /* NestedView.swift */; };
+		87A2480229B809290087ACC1 /* TodoListView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2480129B809290087ACC1 /* TodoListView2.swift */; };
+		87A2480429B80B490087ACC1 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2480329B80B490087ACC1 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		16F4EA0B29AED8A300B62F32 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 		16F4EA0D29AEDBB600B62F32 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		16F4F4942991B50F00E31BC5 /* NestedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedView.swift; sourceTree = "<group>"; };
+		87A2480129B809290087ACC1 /* TodoListView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView2.swift; sourceTree = "<group>"; };
+		87A2480329B80B490087ACC1 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			children = (
 				1636D8172988B7C400F63F80 /* s23_academy_playgroundApp.swift */,
 				1636D8192988B7C400F63F80 /* ContentView.swift */,
+				87A2480029B8091D0087ACC1 /* Week 6 */,
 				16F4EA0429AECCDC00B62F32 /* Week 5 */,
 				167D42EF29A59301008FC45D /* Week 3 */,
 				16F4F4932991B4F800E31BC5 /* Week 2 */,
@@ -127,6 +132,15 @@
 				16BDCFBE2993267A00F28E18 /* InstagramView.swift */,
 			);
 			path = "Week 2";
+			sourceTree = "<group>";
+		};
+		87A2480029B8091D0087ACC1 /* Week 6 */ = {
+			isa = PBXGroup;
+			children = (
+				87A2480129B809290087ACC1 /* TodoListView2.swift */,
+				87A2480329B80B490087ACC1 /* UserView.swift */,
+			);
+			path = "Week 6";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +215,7 @@
 			files = (
 				16F4EA0C29AED8A300B62F32 /* ToDoView.swift in Sources */,
 				167D42F329A5A179008FC45D /* Demo4.swift in Sources */,
+				87A2480229B809290087ACC1 /* TodoListView2.swift in Sources */,
 				1636D81A2988B7C400F63F80 /* ContentView.swift in Sources */,
 				16F4EA0A29AED81B00B62F32 /* ToDoItem.swift in Sources */,
 				16BDCFBF2993267A00F28E18 /* InstagramView.swift in Sources */,
@@ -211,6 +226,7 @@
 				16F4EA0629AECCEF00B62F32 /* Meeting5View.swift in Sources */,
 				16F4EA0829AED17800B62F32 /* TabExample.swift in Sources */,
 				167D42F129A59378008FC45D /* Meeting4View.swift in Sources */,
+				87A2480429B80B490087ACC1 /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
