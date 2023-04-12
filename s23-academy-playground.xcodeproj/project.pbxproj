@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162AF63F29E61E6D00F322FA /* AnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162AF63E29E61E6D00F322FA /* AnimateView.swift */; };
+		162AF64129E6263100F322FA /* CollapseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162AF64029E6263100F322FA /* CollapseView.swift */; };
+		162BF82629E4B22E00D815E9 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162BF82529E4B22E00D815E9 /* CircleView.swift */; };
+		162BF82829E4B4AF00D815E9 /* ExpandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162BF82729E4B4AF00D815E9 /* ExpandView.swift */; };
+		162BF82A29E4B60F00D815E9 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162BF82929E4B60F00D815E9 /* TransitionView.swift */; };
 		1636D8182988B7C400F63F80 /* s23_academy_playgroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636D8172988B7C400F63F80 /* s23_academy_playgroundApp.swift */; };
 		1636D81A2988B7C400F63F80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1636D8192988B7C400F63F80 /* ContentView.swift */; };
 		1636D81C2988B7C600F63F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1636D81B2988B7C600F63F80 /* Assets.xcassets */; };
@@ -31,6 +36,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		162AF63E29E61E6D00F322FA /* AnimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateView.swift; sourceTree = "<group>"; };
+		162AF64029E6263100F322FA /* CollapseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapseView.swift; sourceTree = "<group>"; };
+		162BF82529E4B22E00D815E9 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		162BF82729E4B4AF00D815E9 /* ExpandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandView.swift; sourceTree = "<group>"; };
+		162BF82929E4B60F00D815E9 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		1636D8142988B7C400F63F80 /* s23-academy-playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "s23-academy-playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1636D8172988B7C400F63F80 /* s23_academy_playgroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s23_academy_playgroundApp.swift; sourceTree = "<group>"; };
 		1636D8192988B7C400F63F80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +76,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		162BF82429E4B21E00D815E9 /* Week 11 */ = {
+			isa = PBXGroup;
+			children = (
+				162BF82529E4B22E00D815E9 /* CircleView.swift */,
+				162BF82929E4B60F00D815E9 /* TransitionView.swift */,
+				162BF82729E4B4AF00D815E9 /* ExpandView.swift */,
+				162AF63E29E61E6D00F322FA /* AnimateView.swift */,
+				162AF64029E6263100F322FA /* CollapseView.swift */,
+			);
+			path = "Week 11";
+			sourceTree = "<group>";
+		};
 		1636D80B2988B7C400F63F80 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +109,7 @@
 			children = (
 				1636D8172988B7C400F63F80 /* s23_academy_playgroundApp.swift */,
 				1636D8192988B7C400F63F80 /* ContentView.swift */,
+				162BF82429E4B21E00D815E9 /* Week 11 */,
 				16D6750829CA36F800EFA76A /* Week 8 */,
 				87A2480029B8091D0087ACC1 /* Week 6 */,
 				16F4EA0429AECCDC00B62F32 /* Week 5 */,
@@ -239,6 +262,8 @@
 				16D6751029CA6FBC00EFA76A /* APIService.swift in Sources */,
 				16F4EA0C29AED8A300B62F32 /* ToDoView.swift in Sources */,
 				167D42F329A5A179008FC45D /* Demo4.swift in Sources */,
+				162AF63F29E61E6D00F322FA /* AnimateView.swift in Sources */,
+				162BF82A29E4B60F00D815E9 /* TransitionView.swift in Sources */,
 				87A2480229B809290087ACC1 /* TodoListView2.swift in Sources */,
 				16D6750E29CA3ED800EFA76A /* PlayerView.swift in Sources */,
 				1636D81A2988B7C400F63F80 /* ContentView.swift in Sources */,
@@ -250,8 +275,11 @@
 				1636D8182988B7C400F63F80 /* s23_academy_playgroundApp.swift in Sources */,
 				1664B53E2989E3D100594873 /* Example.swift in Sources */,
 				16D6750A29CA370900EFA76A /* BallService.swift in Sources */,
+				162BF82829E4B4AF00D815E9 /* ExpandView.swift in Sources */,
 				16F4EA0629AECCEF00B62F32 /* Meeting5View.swift in Sources */,
 				16F4EA0829AED17800B62F32 /* TabExample.swift in Sources */,
+				162AF64129E6263100F322FA /* CollapseView.swift in Sources */,
+				162BF82629E4B22E00D815E9 /* CircleView.swift in Sources */,
 				167D42F129A59378008FC45D /* Meeting4View.swift in Sources */,
 				87A2480429B80B490087ACC1 /* UserView.swift in Sources */,
 				16D6751429CA773F00EFA76A /* BallViewModel.swift in Sources */,

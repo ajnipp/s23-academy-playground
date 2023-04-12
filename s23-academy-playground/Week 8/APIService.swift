@@ -13,7 +13,11 @@ class APIService {
         let url = URL(string: "https://www.balldontlie.io/api/v1/players/\(id)")!
         do {
             let (data, _) = try await URLSession.shared.data(from: url)
-            let decoded = try JSONDecoder().decode(Player.self, from: data)
+            
+            let decoder = JSONDecoder()
+            decoder.keyDecodingStrategy = .convertFromSnakeCase
+            
+            let decoded = try decoder.decode(Player.self, from: data)
             return decoded
 
         } catch {
